@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>FilterInput.qml</file>
+        <file>FilterTable.qml</file>
+        <file>Firewall.qml</file>
+        <file>LinkTable.qml</file>
+        <file>NatInput.qml</file>
+        <file>NatTable.qml</file>
+        <file>utils.js</file>
+        <file>Utils.qml</file>
+    </qresource>
+</RCC>

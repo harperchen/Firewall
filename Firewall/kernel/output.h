@@ -1,0 +1,18 @@
+#ifndef OUTPUT_H_
+#define OUTPUT_H_
+
+//定义幻数
+#define IOC_MAGIC_NUMBER 'V'
+
+//定义命令
+#define ADD_FILTER_FROM_USER _IOW(IOC_MAGIC_NUMBER, 0, int)
+#define DEL_FILTER_FROM_USER _IO(IOC_MAGIC_NUMBER,  1)
+
+#define ADD_NAT_FROM_USER    _IOW(IOC_MAGIC_NUMBER, 2, int)
+#define DEL_NAT_FROM_USER    _IO(IOC_MAGIC_NUMBER,  3)
+
+#define COPY_LINK_TO_USER    _IOR(IOC_MAGIC_NUMBER, 4, int)
+
+#define SET_DEFAULT_POLICY   _IO(IOC_MAGIC_NUMBER,  5)
+
+#endif

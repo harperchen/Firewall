@@ -1,0 +1,1 @@
+cmd_/home/harper/Firewall/kernel/chrdev.o := ld -m elf_x86_64   -r -o /home/harper/Firewall/kernel/chrdev.o /home/harper/Firewall/kernel/output.o /home/harper/Firewall/kernel/hashTable.o /home/harper/Firewall/kernel/lineTable.o /home/harper/Firewall/kernel/utils.o /home/harper/Firewall/kernel/hook.o /home/harper/Firewall/kernel/filter.o /home/harper/Firewall/kernel/nat.o 

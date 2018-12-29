@@ -1,0 +1,1 @@
+cmd_/home/harper/Firewall/kernel/chrdev.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.4.2-030402-generic/scripts/module-common.lds --build-id  -o /home/harper/Firewall/kernel/chrdev.ko /home/harper/Firewall/kernel/chrdev.o /home/harper/Firewall/kernel/chrdev.mod.o
